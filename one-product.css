@@ -1,0 +1,23 @@
+:root {
+  --pink-color: #f09a99;
+  --light-pink-color: #ffe5e4;
+  --ash-color: #d9d9d9;
+  --dark-pink: #a3636f;
+  --light-light-pink-color: #faeae4;
+}
+.card {
+  margin-top: 120px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+
+  text-align: center;
+  font-family: arial;
+  background: var(--light-light-pink-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-img-top {
+  transform: translateY(-100px);
+}
